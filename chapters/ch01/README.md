@@ -8,4 +8,5 @@ In this chapter we will learn the following
 
 
 *Video Tutorial*
+
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/FDXmK07-jOI/0.jpg)](http://www.youtube.com/watch?v=FDXmK07-jOI)
