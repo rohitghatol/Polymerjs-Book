@@ -1,0 +1,25 @@
+{
+  "name": "ch01",
+  "version": "0.0.0",
+  "homepage": "https://github.com/rohitghatol/Polymerjs-Book",
+  "authors": [
+    "Rohit Ghatol <rohit.ghatol@synerzip.com>"
+  ],
+  "description": "This is an example of Polymer Element",
+  "keywords": [
+    "Polymer",
+    "WebComponents"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#~0.5.1",
+    "core-ajax": "Polymer/core-ajax#~0.5.1"
+  }
+}

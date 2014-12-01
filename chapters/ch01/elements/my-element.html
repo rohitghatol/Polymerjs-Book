@@ -1,0 +1,13 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+<link rel="import" href="../bower_components/core-ajax/core-ajax.html">
+
+<polymer-element name="my-element" noscript>
+    <template>
+        <span>This is <b>my-element</b>. This is a Shadow Dom</span>
+
+        <core-ajax url="../json/data.json" auto response="{{data}}"></core-ajax>
+
+        <div>{{data.name}}</div>
+
+    </template>
+</polymer-element>
