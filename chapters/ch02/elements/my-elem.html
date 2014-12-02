@@ -1,0 +1,33 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="my-elem" on-click="onClick">
+    <template>
+        <span>Style has bold as {{styleAttr.bold}}</span><br>
+        <span>Counter is {{counter}}</span><br>
+    </template>
+
+    <script>
+        Polymer({
+            created:function(){
+              this.styleAttr.bold=true;
+            },
+            publish:{
+                styleAttr:{
+                    bold:false,
+                    italics:false,
+                    underline:false
+                },
+                counter:{
+                    value:1,
+                    reflect:true
+                }
+            },
+            counterChanged:function(oldValue,newValue){
+                console.log("Counter's value changed from "+oldValue+" to "+newValue);
+            },
+            onClick:function(){
+                this.counter=22;
+            }
+        });
+    </script>
+</polymer-element>
