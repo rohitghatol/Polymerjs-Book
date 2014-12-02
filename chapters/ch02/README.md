@@ -9,3 +9,7 @@ Attributes can be defined for Web Component in different manner. In this chapter
 * Defining complex attributes (objects & arrays) and lifecycle methods
 * Change Handlers for Attributes
 * Reflect aspect of an Attribute
+
+*Video Tutorial*
+
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/0ovQZdTw4a8/0.jpg)](http://www.youtube.com/watch?v=0ovQZdTw4a8)
