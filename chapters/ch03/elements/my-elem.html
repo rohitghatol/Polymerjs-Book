@@ -1,0 +1,31 @@
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<polymer-element name="my-elem" on-MouseOver="{{onMouseOver}}">
+    <template>
+        <span>My-Elem</span>
+        <button on-click="{{clearText}}">Clear Text</button>
+        <input id="text" type="text" value="SomeText">
+    </template>
+    <script>
+        Polymer({
+
+            created: function() { console.log("created"); },
+            ready: function() { console.log("ready"); },
+            attached: function () { console.log("attached"); },
+            domReady: function() { console.log("domReady"); },
+            detached: function() { console.log("detached"); },
+
+            onMouseOver:function(event,details,sender){
+                console.log(event);
+                console.log(details);
+                console.log(sender);
+            },
+
+            clearText:function(){
+                this.$.text.value="";
+            }
+
+        });
+
+    </script>
+</polymer-element>
